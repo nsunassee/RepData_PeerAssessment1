@@ -25,8 +25,8 @@ The dataset is stored in a comma-separated-value (CSV) file and there are a tota
 
 ```r
 fileUrl <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip"
-#download.file(fileUrl,destfile = "activity.zip")
-#unzip("activity.zip")
+download.file(fileUrl,destfile = "activity.zip")
+unzip("activity.zip")
 ```
 #### Loading any required libraries
 
